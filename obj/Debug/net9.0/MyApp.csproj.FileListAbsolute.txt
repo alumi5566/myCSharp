@@ -12,3 +12,4 @@
 /Users/chenyang/Documents/myCSharp/MyApp/obj/Debug/net9.0/MyApp.pdb
 /Users/chenyang/Documents/myCSharp/MyApp/obj/Debug/net9.0/MyApp.genruntimeconfig.cache
 /Users/chenyang/Documents/myCSharp/MyApp/obj/Debug/net9.0/ref/MyApp.dll
+/Users/chenyang/Documents/myCSharp/MyApp/obj/Debug/net9.0/MyApp.sourcelink.json

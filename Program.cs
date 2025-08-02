@@ -17,6 +17,7 @@ class Program
         Console.WriteLine("4 = Class & Object");
         Console.WriteLine("5 = Heap");
         Console.WriteLine("6 = Struct vs Class");
+        Console.WriteLine("7 = StructPointer");
 
         Console.Write("Enter number: ");
         string choice = Console.ReadLine();
@@ -29,6 +30,7 @@ class Program
             case "4": ClassObjectSample.Run(); break;
             case "5": HeapSample.Run(); break;
             case "6": StructVsClassSample.Run(); break;
+            case "7": PointerSample.Run(); break;
             default: Console.WriteLine("Invalid choice."); break;
         }
     }

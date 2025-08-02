@@ -15,7 +15,7 @@ public class Dog : Animal {
 // can implement another interface
 // Structs are value types — their memory layout is fixed, so they don’t support class-style inheritance.
 // They can implement interfaces, so you can still have polymorphism.
-public struct PointStruct : IComparable<PointStruct> {
+public struct PointStructImplement : IComparable<PointStruct> {
     public int X, Y;
 
     public int CompareTo(PointStruct other) {
@@ -24,12 +24,12 @@ public struct PointStruct : IComparable<PointStruct> {
 }
 
 // ❌ This is illegal:
-// public struct MyStruct : PointStruct { } // compile error
+// public struct MyStruct : PointStructImplement { } // compile error
 
-public class StructVsClassSample
+public class Inheritance
 {
     public static void Run()
     {
-        
+        Console.WriteLine("Inheritance");
     }
 }

@@ -18,6 +18,7 @@ class Program
         Console.WriteLine("5 = Heap");
         Console.WriteLine("6 = Struct vs Class");
         Console.WriteLine("7 = StructPointer");
+        Console.WriteLine("8 = Boxing vs UnBoxing");
 
         Console.Write("Enter number: ");
         string choice = Console.ReadLine();
@@ -31,6 +32,7 @@ class Program
             case "5": HeapSample.Run(); break;
             case "6": StructVsClassSample.Run(); break;
             case "7": PointerSample.Run(); break;
+            case "8": BoxingUnBoxingSample.Run(); break;
             default: Console.WriteLine("Invalid choice."); break;
         }
     }

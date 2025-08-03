@@ -19,6 +19,9 @@ class Program
         Console.WriteLine("6 = Struct vs Class");
         Console.WriteLine("7 = StructPointer");
         Console.WriteLine("8 = Boxing vs UnBoxing");
+        Console.WriteLine("9 = Enum");
+        Console.WriteLine("10 = ConstVsReadOnly");
+        Console.WriteLine("11 = Ref vs Out");
 
         Console.Write("Enter number: ");
         string choice = Console.ReadLine();
@@ -33,6 +36,9 @@ class Program
             case "6": StructVsClassSample.Run(); break;
             case "7": PointerSample.Run(); break;
             case "8": BoxingUnBoxingSample.Run(); break;
+            case "9": EnumSample.Run(); break;
+            case "10": ConstReadonlySample.Run(); break;
+            case "11": RefVsOutSample.Run(); break;
             default: Console.WriteLine("Invalid choice."); break;
         }
     }

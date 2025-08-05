@@ -22,6 +22,8 @@ class Program
         Console.WriteLine("9 = Enum");
         Console.WriteLine("10 = ConstVsReadOnly");
         Console.WriteLine("11 = Ref vs Out");
+        Console.WriteLine("12 = GetterSetter");
+        Console.WriteLine("13 = ParkingLots");
 
         Console.Write("Enter number: ");
         string choice = Console.ReadLine();
@@ -39,6 +41,8 @@ class Program
             case "9": EnumSample.Run(); break;
             case "10": ConstReadonlySample.Run(); break;
             case "11": RefVsOutSample.Run(); break;
+            case "12": GetterSetterSample.Run(); break;
+            case "13": ParkingLotsSample.Run(); break;
             default: Console.WriteLine("Invalid choice."); break;
         }
     }

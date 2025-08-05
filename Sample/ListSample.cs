@@ -15,5 +15,9 @@ public class ListSample
         {
             Console.WriteLine(fruit);
         }
+        Console.WriteLine("Fruits in the list v2:");
+        for (int i=0;i<fruits.Count;i++) {
+            Console.WriteLine(fruits[i]);
+        }
     }
 }

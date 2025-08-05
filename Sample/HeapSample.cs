@@ -14,6 +14,12 @@ public class HeapSample
         minHeap.Enqueue("Banana", 1);
         minHeap.Enqueue("Cherry", 2);
 
+        Console.WriteLine("Min-Heap TryPeek:");
+        // minHeap.TryPeek(var element, var priority); -> compile error
+        minHeap.TryPeek(out var element, out var priority);
+        Console.WriteLine($"{element}, Priority: {priority}");
+
+
         Console.WriteLine("Min-Heap order:");
         while (minHeap.Count > 0)
         {
